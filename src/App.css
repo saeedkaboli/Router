@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,body{
+    width: 100%;
+    height: 100vh;
+    background-color: #b5b5b5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Nav{
+width: 80%;
+height: 100px;
+border-radius: 20px;
+background-color: #002a5e;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+margin: 20px auto;
 }
-
-.App-link {
-  color: #61dafb;
+.Nav>a{
+    color: #fff;
+    margin: 0px 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Header{
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Header>#R{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px solid #000;
+}
+.Header>#R>a{
+    margin: 30px 0px;
+}
+.LinkFirst{
+    color: #000;
+}
+.Header>#L{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Footer{
+    width: 100%;
+    height: 50px;
+    background-color: #002a5e;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
